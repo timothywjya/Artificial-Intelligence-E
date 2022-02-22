@@ -16,7 +16,7 @@ img = cv2.resize(img,None,fx=0.7,fy=0.7) #Ukurang Gambar
 height,width, channels = img.shape
 
 # Mendeteksi Objek
-blob = cv2.dnn.blobFromImage(img, 0.00392, (416r, 416), (0,0,0), True, crop=False)
+blob = cv2.dnn.blobFromImage(img, 0.00392, (416, 416), (0,0,0), True, crop=False)
 
 net.setInput(blob)
 keluar = net.forward(output_layer)
