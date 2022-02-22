@@ -1,0 +1,1 @@
+Before you run the project, please download the yolov3.weight (weight file type), and place in the folder you place the python file and check it first before you run, is the yolov3.weight already connected or not
